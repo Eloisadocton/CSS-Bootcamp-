@@ -1,3 +1,81 @@
 .body {
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
+  color: #727d84;
+}
+
+/*Logo*/
+img {
+  height: 50px;
+}
+
+/*Header Styling*/
+.header {
+  background-color: #39474e;
+  padding-top: 1%;
+}
+
+.navbar-default {
+    background-color: #39474e;
+    border-color: #39474e;
+    padding-bottom: 1%;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav .navbar-right  > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #39474e;
+    color: #9f9f9f;
+}
+.login {
+  background-color: #6fbbb7;
+  border-radius: 10%;
+}
+
+
+/*Found the instructions on how to edit the bootstrap nav bar in this site: https://www.dmxzone.com/support/22598/topic/59630/*/
+
+/*Hero area*/
+.hero {
+  background-image: url(../images/hero.jpg);
+  width: 100%;
+  min-height: 700px;
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  margin-top: -5%;
+  padding-top: 30%;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  color: white;
+}
+
+/*Media*/
+.row {
+  background-color: #eeeeee;
+  margin-top: -1%;
+}
+
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #727d84;
+}
+p {
+  color: #727d84;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #727d84;
+}
+.forms {
+  background-color: #ebebeb;
 }
