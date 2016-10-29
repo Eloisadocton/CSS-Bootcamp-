@@ -15,149 +15,161 @@
   </head>
   <body>
 
+
 <!--Header and Hero-->
 <div class="header">
- <div class="containter-fluid">
-  <div class="menu">
-
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <ul class="nav navbar-nav">
-      <li><img src="./images/theironyardlogo.svg" alt="the iron yard logo"></li>
-      <li><a href="#">Campus</a></li>
-      <li><a href="#">Courses</a></li>
-      <li><a href="#">Corporate Training</a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">About</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Contact</a></li>
-      <li class="login"><a href="#">Login</a></li>
-    </ul>
+  <div class="containter-fluid">
+    <div class="menu">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li><img src="./images/theironyardlogo.svg" alt="the iron yard logo"></li>
+            <li><a href="#">Campus</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Corporate Training</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li class="getstarted"><a href="#">Get Started</a></li>
+          </ul>
+         </div>
+       </nav>
+     </div>
    </div>
-     </nav>
-   </div>
- </div>
+</div>
 
 
 <!--Hero Image area-->
-<div class="hero">
-  <h1>Where will your new job take you?</h1>
-</div>
-</div>
-
-
-<!-- Logos of media companies-->
-<!--The Atlantic logo-->
-<div class="containter-fluid">
+<div class="container-fluid">
   <div class="row">
-  <div class="companies"><!-- remember to style at max-width 90% so it's centered-->
-    <div class="col-sx-2 col-md-2">
-        <img src="./images/mediatheatlantic.png" alt="news and media logos"/>
-    </div>
-<!--Fast Company logo-->
-    <div class="col-sx-2 col-md-2">
-        <img src="./images/mediafast.png" alt="Fast Company Logo"/>
-    </div>
-<!--CNN logo-->
-    <div class="col-sx-2 col-md-2">
-        <img src="./images/mediacnn.png" alt="CNN logo"/>
-    </div>
-<!--Tech Crunch logo-->
-    <div class="col-sx-2 col-md-2">
-        <img src="./images/mediatechcrunch.png" alt="Tech Crunch Logo" />
-    </div>
-<!--ABC logo-->
-   <div class="col-sx-2 col-md-2">
-        <img src="./images/mediaabc.png" alt="ABC Logo" />
-    </div>
-<!--NBC ... I think? logo-->
-    <div class="col-sx-2 col-md-2">
-        <img src="./images/medianbc.png" alt="nbc logo" />
-    </div>
+   <div class="hero">
+     <h1>Where will your new job take you?</h1>
+   </div>
+ </div>
 </div>
+
+
+<!- Logos of media companies-->
+<!--The Atlantic logo-->
+<div class="container-fluid">
+  <div class="row media">
+    <div class="companies">
+      <div class="col-sx-3 col-md-2">
+            <img src="./images/mediatheatlantic.png" alt="news and media logos" />
+      </div>
+  <!--Fast Company logo-->
+      <div class="col-sx-3 col-md-2">
+          <img src="./images/mediafast.png" alt="Fast Company Logo" />
+      </div>
+  <!--CNN logo-->
+      <div class="col-sx-3 col-md-2">
+          <img src="./images/mediacnn.png" alt="CNN logo"/>
+      </div>
+  <!--Tech Crunch logo-->
+      <div class="col-sx-3 col-md-2">
+          <img src="./images/mediatechcrunch.png" alt="Tech Crunch Logo" />
+      </div>
+  <!--ABC logo-->
+     <div class="col-sx-3 col-md-2">
+          <img src="./images/mediaabc.png" alt="ABC Logo" />
+      </div>
+  <!--NBC ... I think? logo-->
+      <div class="col-sx-3 col-md-2">
+          <img src="./images/medianbc.png" alt="nbc logo" />
+      </div>
+    </div>
+  </div>
 </div>
-</div>
+
 
 
 <!--Training offerings-->
-<div class="container">
-  <div class="col-sx-8 col-md-8">
-    <h2>12-week code school</h2>
-    <p>Go from zero to job ready in an immersive environment. Learn the latest skills from
-industry professionals and connect with employers through our Career Support program.</p>
-<br>
-    <h2>Free crash courses</h2>
-    <p>Our free, one-night crash courses are the perfect way to get your hands dirty with a fun
-project and gain the confidence to explore the world of programming.</p>
-<br>
-    <h2>Corporate Training</h2>
-    <p>If you already lead or work on a development team, our recruiting, onboarding, reskilling and upskilling programs provide proven pathways to grow your team.</p>
+<div class="container-fluid">
+  <div class="row gridbase">
+    <div class="col-sm-12">
+      <div class="col-md-8">
+        <div class="features">
+          <h2>12-week code school</h2>
+          <p>Go from zero to job ready in an immersive environment. Learn the latest skills from
+          industry professionals and connect with employers through our Career Support program.</p>
+        <br>
+          <h2>Free crash courses</h2>
+          <p>Our free, one-night crash courses are the perfect way to get your hands dirty with a fun
+          project and gain the confidence to explore the world of programming.</p>
+        <br>
+          <h2>Corporate Training</h2>
+          <p>If you already lead or work on a development team, our recruiting, onboarding, reskilling and upskilling programs provide proven pathways to grow your team.</p>
+        </div>
+      </div>
+        <div class="col-md-4">
+        <form action="form" method="post" class="form-styles">
+          <h6>Short on time?</h6>
+          <p>Want a quick overview explaining what we’re all about? We’ll email you our 2016 fact sheet, complete with a snapshot of our locations, courses, job data and more.</p>
+          <br>
+        <label>
+            <input id="name" type="text" name="name" placeholder="First Name" />
+        </label>
+        <label>
+            <input id="email" type="email" name="email" placeholder="Last Name" />
+        </label>
+        <br>
+        <label>
+            <input id="message" name="message" placeholder="Email Address"></input>
+        </label>
+        <br>
+        <label>
+            <input id="message" name="message" placeholder="Phone Number"></input>
+        </label>
+        <br>
+         <label>
+            <span>&nbsp;</span>
+            <input type="button" class="button" value="Email me the fact sheet" />
+        </label>
+        </form>
+      </div>
+    </div>
   </div>
-
-
-  <!--form-->
-  <div class="forms">
-   <div class="col-sx-4 col-md-4">
-    <form action="" method="post" class="basic grey">
-      <h6>Short on time?</h6>
-      <p>Want a quick overview explaining what we’re all about? We’ll email you our 2016 fact sheet, complete with a snapshot of our locations, courses, job data and more.</p>
-
-        <input id="name" type="text" name="name" placeholder="First Name" />
-    </label>
-    <label>
-        <input id="email" type="email" name="email" placeholder="Last Name" />
-    </label>
-    <label>
-        <input id="message" name="message" placeholder="Email Address"></input>
-    </label>
-     <label>
-        <span>&nbsp;</span>
-        <input type="button" class="button" value="Send" />
-    </label>
-   </form>
-  </div>
-</div>
 </div>
 <!-- Got part of this form code in this site: https://www.sanwebe.com/2013/10/css-html-form-styles-->
 
 <!--Our Courses-->
-<div class="containter-fluid">
-  <div class="row3">
-    <div class="courses">
-     <h3>Discover our courses</h3>
-     <br>
-     We offer learning programs that cover the core components of web development. Each course is designed to help people reach their learning and career goals.
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 col-grey">
+        <h3>Discover our courses</h3>
+          <br>
+          We offer learning programs that cover the core components of web development. Each course is designed to help people reach their learning and career goals.
+      </div>
     </div>
   </div>
-
-  <div class="row4">
-    <!--Front end logo and goodies-->
-    <div class="col-sx-3 col-md-3 frontend">
-        <img src="./images/coursesfrontend.png" /a>
+<!--Icons-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sx-6 col-md-3 col-grey">
+        <img src="images/coursesfrontend.png" alt="front end engineering"/>
         <br>
-        <p>FRONT-END ENGINEERING</p>
-    </div>
-
-    <!--BACK end logo and goodies-->
-    <div class="col-sx-3 col-md-3 backend">
-        <img src="./images/coursesbackend.png" /a>
+        <p><font color="#cf852c">FRONT-END<br>ENGINEERING</p>
+      </div>
+      <!--BACK end icon and goodies-->
+      <div class="col-sx-6 col-md-3 col-grey">
+        <img src="images/coursesbackend.png" alt="back end engineering"/>
         <br>
-        <p>BACK-END ENGINEERING</p>
-    </div>
-
-    <!--Mobile end logo and goodies-->
-    <div class="col-sx-3 col-md-3 frontend">
-        <img src="./images/mediamobile.png" /a>
+        <p><font color="#af5c56">BACK-END<br>ENGINEERING</p>
+      </div>
+        <!--Mobile end icon and goodies-->
+      <div class="col-sx-6 col-md-3 col-grey">
+        <img src="images/mediamobile.png" alt="mobile engineering"/>
         <br>
-        <p>MOBILE ENGINEERING</p>
-    </div>
-
-    <!--UI Design end logo and goodies-->
-    <div class="col-sx-3 col-md-3 frontend">
-        <img src="./images/mobileinterface.png" /a>
+        <p><font color="#d2b52b">MOBILE<br>ENGINEERING</p>
+      </div>
+      <!--UI Design end icon and goodies-->
+      <div class="col-sx-6 col-md-3 col-grey">
+        <img src="images/mobileinterface.png" alt="interface design"/>
         <br>
-        <p>INTERFACE DESIGN</p>
+        <p><font color="#6fbbb7">INTERFACE<br>DESIGN</p>
+      </div>
     </div>
   </div>
 </div>
@@ -165,91 +177,103 @@ project and gain the confidence to explore the world of programming.</p>
 
 
 <!--Employers Section-->
-<div class="containter-fluid">
-  <div class="row5">
-    <h4><center>Employers<center></h4>
-      <p>We work with amazing companies around the world, connecting them with our graduates, training their developers and partnering with them to impact the communities around each of our campuses.</p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 col-employers">
+      <h4>Employers</h4>
+        <div class="employers text">We work with amazing companies around the world, connecting them with our graduates, training their developers and partnering with them to impact the communities around each of our campuses.</p></div>
+          <!--IBM logo-->
+          <div class="col-sx-4 col-md-4">
+              <img src="./images/employersibm.png" alt="ibm logo">
+          </div>
+          <!--Microsoft logo-->
+          <div class="col-sx-4 col-md-4">
+              <img src="./images/employersmicrosoft.png" alt="microsoft logo">
+          </div>
+          <!--GitHub logo-->
+          <div class="col-sx-4 col-md-4">
+              <img src="./images/employersgithub.png" alt="github">
+          </div>
+          <!--Learn about button-->
+          <label>
+             <span>&nbsp;</span>
+             <input type="button" class="button" value="Learn more about how we work with companies" />
+         </label>
+      </div>
+    </div>
   </div>
-  <div class="row6">
-    <!--IBM logo-->
-    <div class="col-sx-4 col-md-4">
-        <img src="./images/employersibm.png" /a>
-    </div>
-    <!--Microsoft logo-->
-    <div class="col-sx-4 col-md-4">
-        <img src="./images/employersmicrosoft.png" /a>
-    </div>
-    <!--GitHub logo-->
-    <div class="col-sx-4 col-md-4">
-        <img src="./images/employersgithub.png" /a>
-    </div>
-
-  </div>
-</div>
 <!--end of employers-->
 
 
 <!--Questions?-->
-<div class="container">
-  <div class="col-sx-6 col-md-6 talk">
-    <h5>QUESTIONS?</h5>
-    <h3>Let's talk.</h3>
-    <p>Whether you're thinking about starting a new career, interested in learning more about our programs for individuals or businesses, or just want to chat, we're here and we'd love to connect with you. Shoot us an email or your phone number and we'll get back to you soon, or you can chat with us right away using the chat icon below.</p>
- </div>
+<div class="container-fluid"><!--closing in the end-->
+  <div class-"wrapper">
+    <div class="row">
+      <div class="col-sx-12 col-md-4">
+        <h5>QUESTIONS?</h5>
+        <h3>Let's talk.</h3>
+        <p>Whether you're thinking about starting a new career, interested in learning more about our programs for individuals or businesses, or just want to chat, we're here and we'd love to connect with you. Shoot us an email or your phone number and we'll get back to you soon, or you can chat with us right away using the chat icon below.</p>
+      </div>
+
   <!--call me form-->
-  <div class="col-sx-3 col-md-3">
-    <form action="" method="post" class="basic grey">
-      <h6>We'll call you</h6>
-      <p>Enter your phone number below and we'll give you a ring in the next few days.</p>
-
-        <input id="name" type="text" name="name" placeholder="First Name" />
-    </label>
-    <label>
-        <input id="email" type="email" name="email" placeholder="Last Name" />
-    </label>
-    <label>
-        <input id="message" name="message" placeholder="Phone Number"></input>
-    </label>
-     <label>
-        <span>&nbsp;</span>
-        <input type="button" class="button" value="Send" />
-    </label>
-</form>
-    </form>
-</div>
+    <div class="col-sx-12 col-md-4">
+      <div class="form-styles">
+        <form action="" method="post" class="basic grey">
+          <h6>We'll call you</h6>
+          <p>Enter your phone number below and we'll give you a ring in the next few days.</p>
+          <br>
+            <label>
+                <input id="name" type="text" name="name" placeholder="First Name" />
+            </label>
+            <label>
+                <input id="email" type="email" name="email" placeholder="Last Name" />
+            </label>
+            <label>
+                <input id="message" name="message" placeholder="Phone Number"></input>
+            </label>
+             <label>
+                <span>&nbsp;</span>
+                <input type="button" class="button" value="Send" />
+            </label>
+         </form>
+       </div>
+     </div>
 <!--email form-->
-<div class="col-sx-3 col-md-3">
-  <form action="" method="post" class="basic grey">
-    <h6>We'll email you</h6>
-    <p>Enter your email below and we'll be in touch shortly.</p>
-
-      <input id="name" type="text" name="name" placeholder="First Name" />
-  </label>
-  <label>
-      <input id="email" type="email" name="email" placeholder="Last Name" />
-  </label>
-  <label>
-      <input id="message" name="message" placeholder="Email Address"></input>
-  </label>
-   <label>
-      <span>&nbsp;</span>
-      <input type="button" class="button" value="Send" />
-  </label>
-</form>
-  </form>
-</div>
-</div>
+     <div class="col-sx-12 col-md-4">
+      <div class="form-styles">
+        <form action="" method="post" class="basic grey">
+          <h6>We'll email you</h6>
+          <p>Enter your email below and we'll be in touch shortly.</p>
+          <br>
+          <label>
+              <input id="name" type="text" name="name" placeholder="First Name" />
+          </label>
+          <label>
+              <input id="email" type="email" name="email" placeholder="Last Name" />
+          </label>
+          <label>
+              <input id="message" name="message" placeholder="Email"></input>
+          </label>
+           <label>
+              <span>&nbsp;</span>
+              <input type="button" class="button" value="Send" />
+          </label>
+        </form>
+       </div>
+     </div>
+  </div>
+ </div>
+</div><!--closing tag for div-->
 <!--end of form-->
-
+<br>
 <!--Footer-->
 <div class="container-fluid">
-  <img src="./images/theironyardlogo.svg" /a>
+  <div class="row">
+    <div class="footer">
+      <img src="images/theironyardlogo.svg" alt="the iron yard">
+    </div>
+  </div>
 </div>
-
-
-
-
-
 
 
 

@@ -1,23 +1,39 @@
+/*Body Tags*/
 .body {
   font-family: "PT Serif", serif;
   color: #727d84;
 }
+.container-fluid {
+ padding: 0px;
+ margin: auto;
+}
+.header {
+  background-color: #39474e;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-right: 4%;
+  padding-bottom: 1%;
+  margin: 0 -15px;
 
+}
 /*Logo*/
-img {
+.logo {
   height: 50px;
 }
 
-/*Header Styling*/
-.header {
-  background-color: #39474e;
-  padding-top: 1%;
-}
 
+
+/*Header Styling*/
 .navbar-default {
     background-color: #39474e;
     border-color: #39474e;
     padding-bottom: 1%;
+    color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #9f9f9f;
+    border-bottom: solid 2px #6fbbb7;
+    background-color: transparent;
 }
 .navbar-default .navbar-nav > li > a {
     color: #ffffff;
@@ -25,17 +41,20 @@ img {
 .navbar-default .navbar-nav .navbar-right  > li > a {
   color: #ffffff;
 }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > .navbar-default .navbar-nav > .active > a:focus {
     background-color: #39474e;
     color: #9f9f9f;
 }
-.login {
+.getstarted {
   background-color: #6fbbb7;
-  border-radius: 10%;
+  border-radius: 5%;
 }
-
-
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: #EF92A5;
+  text-decoration: none;
+}
 /*Found the instructions on how to edit the bootstrap nav bar in this site: https://www.dmxzone.com/support/22598/topic/59630/*/
+
 
 /*Hero area*/
 .hero {
@@ -45,37 +64,135 @@ img {
   background-size:     cover;
   background-repeat:   no-repeat;
   background-position: center center;
-  margin-top: -5%;
   padding-top: 30%;
-}
+  font-family: "PT Serif", serif;
+  margin-bottom: -30px;
 
+}
 h1 {
   font-size: 60px;
   font-weight: bolder;
   color: white;
 }
 
+
 /*Media*/
-.row {
+.media {
   background-color: #eeeeee;
-  margin-top: -1%;
+  min-height: 100%;
+  padding-left: 8%;
+  padding-right: 8%;
+  margin-top: -30px;
+}
+.companies img {
+  width: 100%;
 }
 
 
+/*Course Features and first form*/
 h2 {
+  font-family: sans;
   font-size: 30px;
+  font-weight: bold;
+  color: #727d84;
+}
+h6 {
+  font-size: 20px;
   font-weight: bold;
   color: #727d84;
 }
 p {
   color: #727d84;
 }
-
-h6 {
-  font-size: 20px;
-  font-weight: bold;
-  color: #727d84;
-}
-.forms {
+.form-styles {
   background-color: #ebebeb;
+  width: auto;
+  margin-top: 5%;
+  padding: 2%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #888888;
+}
+.button {
+  background-color: #6fbbb7;
+  border-style: none;
+  border-radius: 10px;
+  width: auto;
+  color: white;
+  padding: 5%;
+  font-size: 2rem;
+  box-shadow: 2px 2px 5px #0d716b;
+}
+input {
+  align-items: center;
+  width: 250px;
+  font-style: italic;
+  font-family: serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  align-self: center;
+
+
+}
+
+/*Training Offerings*/
+
+.col-grey {
+  background-color: #eeeeee;
+  height: 100%;
+  text-align: center;
+}
+h3 {
+  font-family: serif;
+  font-size: 40px;
+  color: #727d84;
+  margin-top: 5%;
+}
+.courselogos {
+  padding-top: 5%;
+}
+.courselogos p {
+  margin-top: 2%;
+  font-family: serif;
+  font-weight: bolder;
+  font-size: 2rem;
+  margin-bottom: 15%;
+}
+
+/*Employers*/
+.col-employers {
+  background-image: url(../images/employers-image.jpg);
+  background-size: cover;
+  height: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+.employers text {
+  color: white;
+  font-size: 2rem;
+}
+.employerlogos {
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-right: 10%;
+}
+h4 {
+  margin-top: 5%;
+  color: white;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.footer {
+  background-color: #39474e;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+
+}
+.gridbase {
+  background-color: white;
+  padding-left: 5%;
+  padding-right: 5%;
 }
