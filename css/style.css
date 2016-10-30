@@ -1,28 +1,79 @@
-/*Body Tags*/
-.body {
-  font-family: "PT Serif", serif;
+/*Hero text*/
+h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: white;
+  padding-left: 10%;
+  padding-bottom: 35%;
+}
+/*Discover our Courses*/
+h2 {
+  font-family: sans;
+  font-size: 3rem;
+  font-weight: bold;
   color: #727d84;
 }
-.container-fluid {
- padding: 0px;
- margin: auto;
+/*Employers header*/
+h3 {
+  font-family: serif;
+  font-size: 3rem;
+  color: white;
+  margin-top: 5%;
+  font-style: italic;
 }
+/*Info on Iron Yard hader*/
+h4 {
+  margin-top: 5%;
+  color: #727d84;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-style: italic;
+}
+/*Questions?*/
+h5 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #727d84;
+  font-family: serif;
+}
+/*Headers in boxes?*/
+h6 {
+  color: white;
+  font-size: 2rem;
+  font-family: serif;
+  color: #727d84;
+  font-weight: bold;
+
+}
+/*General text*/
+p {
+  color: #727d84;
+  font-family: helvetica;
+  font-size: 1.7rem;
+}
+/*General text*/
+a {
+  color: white;
+  font-family: helvetica;
+  font-size: 1.7rem;
+  text-align: center;
+  margin: 15%;
+}
+/*Navbar Snafu*/
 .header {
   background-color: #39474e;
   padding-left: 3%;
   padding-top: 3%;
   padding-right: 4%;
   padding-bottom: 1%;
-  margin: 0 -15px;
-
+  width: 100%;
+  font-family: serif;
 }
 /*Logo*/
 .logo {
   height: 50px;
 }
-
-
-
 /*Header Styling*/
 .navbar-default {
     background-color: #39474e;
@@ -38,8 +89,8 @@
 .navbar-default .navbar-nav > li > a {
     color: #ffffff;
 }
-.navbar-default .navbar-nav .navbar-right  > li > a {
-  color: #ffffff;
+.navbar-default .navbar-right  > li > a {
+  color: #bbbec0;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > .navbar-default .navbar-nav > .active > a:focus {
     background-color: #39474e;
@@ -54,7 +105,10 @@
   text-decoration: none;
 }
 /*Found the instructions on how to edit the bootstrap nav bar in this site: https://www.dmxzone.com/support/22598/topic/59630/*/
-
+.disp {
+  display: inline-block;
+  position: fixed;
+}
 
 /*Hero area*/
 .hero {
@@ -66,16 +120,9 @@
   background-position: center center;
   padding-top: 30%;
   font-family: "PT Serif", serif;
+  margin-top: -2%;
   margin-bottom: -30px;
-
 }
-h1 {
-  font-size: 60px;
-  font-weight: bolder;
-  color: white;
-}
-
-
 /*Media*/
 .media {
   background-color: #eeeeee;
@@ -88,27 +135,16 @@ h1 {
   width: 100%;
 }
 
-
-/*Course Features and first form*/
-h2 {
-  font-family: sans;
-  font-size: 30px;
-  font-weight: bold;
-  color: #727d84;
-}
-h6 {
-  font-size: 20px;
-  font-weight: bold;
-  color: #727d84;
-}
-p {
-  color: #727d84;
+/*TYI features*/
+.features {
+  margin-bottom: 15%;
+  padding-top: 7%;
 }
 .form-styles {
   background-color: #ebebeb;
-  width: auto;
-  margin-top: 5%;
-  padding: 2%;
+  width: 100%;
+  margin-top: 13%;
+  padding: 15%;
   border-radius: 10px;
   box-shadow: 2px 2px 5px #888888;
 }
@@ -130,32 +166,11 @@ input {
   font-weight: normal;
   font-size: 1.5rem;
   align-self: center;
-
-
 }
-
-/*Training Offerings*/
-
 .col-grey {
   background-color: #eeeeee;
   height: 100%;
   text-align: center;
-}
-h3 {
-  font-family: serif;
-  font-size: 40px;
-  color: #727d84;
-  margin-top: 5%;
-}
-.courselogos {
-  padding-top: 5%;
-}
-.courselogos p {
-  margin-top: 2%;
-  font-family: serif;
-  font-weight: bolder;
-  font-size: 2rem;
-  margin-bottom: 15%;
 }
 
 /*Employers*/
@@ -168,21 +183,12 @@ h3 {
   padding-bottom: 5%;
   text-align: center;
 }
-.employers text {
-  color: white;
-  font-size: 2rem;
-}
 .employerlogos {
   padding-left: 10%;
   padding-top: 5%;
   padding-right: 10%;
 }
-h4 {
-  margin-top: 5%;
-  color: white;
-  font-weight: bold;
-  font-size: 3.5rem;
-}
+
 
 .footer {
   background-color: #39474e;
