@@ -12,6 +12,7 @@ h2 {
   font-size: 3rem;
   font-weight: bold;
   color: #727d84;
+  font-style: italic;
 }
 /*Employers header*/
 h3 {
@@ -60,55 +61,67 @@ a {
   text-align: center;
   margin: 15%;
 }
-/*Navbar Snafu*/
-.header {
-  background-color: #39474e;
-  padding-left: 3%;
-  padding-top: 3%;
-  padding-right: 4%;
-  padding-bottom: 1%;
-  width: 100%;
-  font-family: serif;
-}
-/*Logo*/
-.logo {
-  height: 50px;
-}
-/*Header Styling*/
 .navbar-default {
-    background-color: #39474e;
-    border-color: #39474e;
-    padding-bottom: 1%;
-    color: #ffffff;
+  height: 120px;
+  background-color: #39474e;
+  border-radius: 0;
+  border-color: #39474e;
 }
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: #9f9f9f;
-    border-bottom: solid 2px #6fbbb7;
-    background-color: transparent;
+.navbar-brand {
+  padding: 0px;
+    }
+.navbar-brand>img {
+  height: 100px;
+  display: inline !important;
 }
-.navbar-default .navbar-nav > li > a {
-    color: #ffffff;
+.navbar-alignit .navbar-brand {
+	height: auto;
 }
-.navbar-default .navbar-right  > li > a {
-  color: #bbbec0;
+.navbar-nav>li>.dropdown-menu {
+	z-index: 9999;
 }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #39474e;
-    color: #9f9f9f;
+.navbar-default .navbar-nav.navbar-right {
+  width: 30%;
+  margin-top: 1%;
+  height: 50px;
+  padding-top: 30px;
 }
-.getstarted {
-  background-color: #6fbbb7;
-  border-radius: 5%;
+.navbar-default .navbar-nav.navbar-left {
+  padding-top: 30px;
+  margin: 0;
 }
-.nav > li > a:hover, .nav > li > a:focus {
-  background-color: #EF92A5;
-  text-decoration: none;
+.navbar-default .navbar-nav.navbar-left>li>a{
+  clear: both;
+  color: white;
+  text-align: right;
+  margin: 0;
+  margin-top: 1%;
 }
-/*Found the instructions on how to edit the bootstrap nav bar in this site: https://www.dmxzone.com/support/22598/topic/59630/*/
-.disp {
-  display: inline-block;
-  position: fixed;
+.navbar-default .navbar-nav.navbar-left>li>a:hover{
+  border-bottom: 2px #6fbbb7 solid;
 }
+.navbar-default .navbar-nav.navbar-right>li>a{
+  text-align: right;
+   color: grey;
+   width: 60%;
+   display: inline !important;
+ }
+ .navbar-default .navbar-nav.navbar-right>li>a:hover{
+   border-bottom: 2px #7d8081 solid;
+ }
+ .navbar-btn {
+    color: white;
+     font-weight: bold;
+     font-style: italic;
+     font-family: serif;
+     background-color: #6fbbb7;
+     border-color: #6fbbb7;
+     position: static;
+}
+#navbar {
+  background-color: #39474e;
+}
+
 
 /*Hero area*/
 .hero {
@@ -154,9 +167,11 @@ a {
   border-radius: 10px;
   width: auto;
   color: white;
-  padding: 5%;
+  padding: 2%;
   font-size: 2rem;
   box-shadow: 2px 2px 5px #0d716b;
+  display: inline;
+  margin-left: 5%;
 }
 input {
   align-items: center;
@@ -173,7 +188,23 @@ input {
   text-align: center;
 }
 
+/*Discover*/
+.discover {
+ background: #eeeeee;
+ padding-top: 3%;
+}
+.discover p {
+  padding-left: 3%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+
+}
 /*Employers*/
+.employers p {
+  color: white;
+  font-size: 2rem;
+  padding: 3%;
+}
 .col-employers {
   background-image: url(../images/employers-image.jpg);
   background-size: cover;
@@ -184,11 +215,16 @@ input {
   text-align: center;
 }
 .employerlogos {
+  display: inline;
   padding-left: 10%;
   padding-top: 5%;
   padding-right: 10%;
 }
 
+.questions {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
 .footer {
   background-color: #39474e;

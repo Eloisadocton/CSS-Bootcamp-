@@ -14,31 +14,34 @@
 
   </head>
   <body>
-
-
-<!--Header and Hero-->
-<div class="header">
-  <div class="containter-fluid">
-    <div class="menu">
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <ul class="nav navbar-nav">
-            <li><img src="./images/theironyardlogo.svg" alt="the iron yard logo"></li>
-            <li><a href="#">Campus</a></li>
-            <li><a href="#">Courses</a></li>
-            <li><a href="#">Corporate Training</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-            <li class="getstarted"><a href="#">Get Started</a></li>
-          </ul>
-         </div>
-       </nav>
-     </div>
+<!--Navbar-->
+<nav class="navbar navbar-default">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"><!--found this online, I hope that's ok!-->
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <!--Logo-->
+    <a class="navbar-brand" href="#"><img src="images/tiylogolg.png" alt="The Iron Yard" /></a>
+  </div>
+  <!--Menu Left-->
+  <div id="navbar" class="navbar-collapse collapse">
+    <ul class="nav navbar-nav navbar-left">
+      <li><a href="#">Campuses</a></li>
+      <li><a href="#">Courses</a></li>
+      <li><a href="#">Corporate Training</a></li>
+    </ul>
+    <!--Menu Right-->
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a class="btn btn-primary navbar-btn" href="#contact">Get Started</a></li>
+     </ul>
    </div>
-</div>
+ </nav>
 
 
 <!--Hero Image area-->
@@ -137,6 +140,7 @@
 <!--Our Courses-->
 <div class="container-fluid">
   <div class="row">
+    <div class="discover">
     <div class="col-md-12 col-grey">
         <h2>Discover our courses</h2>
           <br>
@@ -144,6 +148,7 @@
       </div>
     </div>
   </div>
+</div>
 <!--Icons-->
   <div class="container-fluid">
     <div class="row">
@@ -179,26 +184,28 @@
 <!--Employers Section-->
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-12 col-employers">
-      <h3>Employers</h3>
-        <a>We work with amazing companies around the world, connecting them with our graduates, training their developers and partnering with them to impact the communities around each of our campuses.</a
-          <!--IBM logo-->
-          <div class="col-sx-4 col-md-4">
-              <img src="./images/employersibm.png" alt="ibm logo">
-          </div>
-          <!--Microsoft logo-->
-          <div class="col-sx-4 col-md-4">
-              <img src="./images/employersmicrosoft.png" alt="microsoft logo">
-          </div>
-          <!--GitHub logo-->
-          <div class="col-sx-4 col-md-4">
-              <img src="./images/employersgithub.png" alt="github">
-          </div>
-          <!--Learn about button-->
-          <label>
-             <span>&nbsp;</span>
-             <input type="button" class="button" value="Learn more about how we work with companies" />
-         </label>
+    <div class="employers">
+      <div class="col-md-12 col-employers">
+        <h3>Employers</h3>
+          <p>We work with amazing companies around the world, connecting them with our graduates, training their developers and partnering with them to impact the communities around each of our campuses.</p>
+            <!--IBM logo-->
+            <div class="col-sx-4 col-md-4">
+                <img src="./images/employersibm.png" alt="ibm logo">
+            </div>
+            <!--Microsoft logo-->
+            <div class="col-sx-4 col-md-4">
+                <img src="./images/employersmicrosoft.png" alt="microsoft logo">
+            </div>
+            <!--GitHub logo-->
+            <div class="col-sx-4 col-md-4">
+                <img src="./images/employersgithub.png" alt="github">
+            </div>
+            <!--Learn about button-->
+            <label>
+               <span>&nbsp;</span>
+               <input type="button" class="button" value="Learn more about how we work with companies" />
+           </label>
+        </div>
       </div>
     </div>
   </div>
@@ -206,9 +213,9 @@
 
 
 <!--Questions?-->
-<div class="container-fluid"><!--closing in the end-->
-  <div class-"wrapper">
-    <div class="row">
+<div class="container"><!--closing in the end-->
+  <div class-"row">
+    <div class="questions">
       <div class="col-sx-12 col-md-4">
         <h5>QUESTIONS?</h5>
         <h2>Let's talk.</h2>
@@ -243,7 +250,7 @@
       <div class="form-styles">
         <form action="" method="post" class="basic grey">
           <h6>We'll email you</h6>
-          <p>Enter your email below and we'll be in touch shortly.</p>
+          <p>Enter your email addresss below and we'll be in touch in the next few days.</p>
           <br>
           <label>
               <input id="name" type="text" name="name" placeholder="First Name" />
