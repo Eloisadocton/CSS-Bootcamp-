@@ -2,291 +2,62 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>CSS Bootcamp</title>
-
-    <!-- Bootstrap -->
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet"><!--Google Font-->
-    <link href="css/bootstrap.min.css" rel="stylesheet"><!--Bootstrap Stylesheet-->
-    <link href="css/style.css" rel="stylesheet"><!--My stylesheet-->
-
+    <title>Eloisa Docton</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600" rel="stylesheet">
+    <script src="https://use.fontawesome.com/05cc2df339.js"></script>
   </head>
   <body>
+
+
 <!--Navbar-->
-<nav class="navbar navbar-default">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"><!--found this online, I hope that's ok!-->
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <!--Logo-->
-    <a class="navbar-brand" href="#"><img src="images/tiylogolg.png" alt="The Iron Yard" /></a>
-  </div>
+<nav>
+    <ul>
+  <!--Logo-->
+    <img src="images/vvlogo.png" class="logo" alt="vintage" /></a>
   <!--Menu Left-->
-  <div id="navbar" class="navbar-collapse collapse">
-    <ul class="nav navbar-nav navbar-left">
-      <li><a href="#">Campuses</a></li>
-      <li><a href="#">Courses</a></li>
-      <li><a href="#">Corporate Training</a></li>
+      <li class="menu"><a href="#">Dresses</a></li>
+      <li class="menu"><a href="#">Tops</a></li>
+      <li class="menu"><a href="#">Bottoms</a></li>
+      <li class="menu"><a href="#">Accessories</a></li>
+      <li class="menu"><a href="#">SALE</a></li>
+
     </ul>
-    <!--Menu Right-->
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">About</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a class="btn btn-primary navbar-btn" href="#contact">Get Started</a></li>
-     </ul>
-   </div>
  </nav>
 
 
 <!--Hero Image area-->
-<div class="container-fluid">
-  <div class="row">
+
    <div class="hero">
-     <h1>Where will your new job take you?</h1>
    </div>
- </div>
-</div>
 
+<!--offerings-->
 
-<!- Logos of media companies-->
-<!--The Atlantic logo-->
-<div class="container-fluid">
-  <div class="row media">
-    <div class="companies">
-      <div class="col-sx-3 col-md-2">
-            <img src="./images/mediatheatlantic.png" alt="news and media logos" />
-      </div>
-  <!--Fast Company logo-->
-      <div class="col-sx-3 col-md-2">
-          <img src="./images/mediafast.png" alt="Fast Company Logo" />
-      </div>
-  <!--CNN logo-->
-      <div class="col-sx-3 col-md-2">
-          <img src="./images/mediacnn.png" alt="CNN logo"/>
-      </div>
-  <!--Tech Crunch logo-->
-      <div class="col-sx-3 col-md-2">
-          <img src="./images/mediatechcrunch.png" alt="Tech Crunch Logo" />
-      </div>
-  <!--ABC logo-->
-     <div class="col-sx-3 col-md-2">
-          <img src="./images/mediaabc.png" alt="ABC Logo" />
-      </div>
-  <!--NBC ... I think? logo-->
-      <div class="col-sx-3 col-md-2">
-          <img src="./images/medianbc.png" alt="nbc logo" />
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<!--Training offerings-->
-<div class="container-fluid">
-  <div class="row gridbase">
-    <div class="col-sm-12">
-      <div class="col-md-8">
         <div class="features">
-          <h4>12-week code school</h4>
-          <p>Go from zero to job ready in an immersive environment. Learn the latest skills from
-          industry professionals and connect with employers through our Career Support program.</p>
-        <br>
-          <h4>Free crash courses</h4>
-          <p>Our free, one-night crash courses are the perfect way to get your hands dirty with a fun
-          project and gain the confidence to explore the world of programming.</p>
-        <br>
-          <h4>Corporate Training</h4>
-          <p>If you already lead or work on a development team, our recruiting, onboarding, reskilling and upskilling programs provide proven pathways to grow your team.</p>
+          <h4>SALE</h4>
+
+            <div class="flexbox">
+              <a href="#"><img src="./images/dress1.jpg" class="dresses" alt="dresses photos"/></a>
+              <a href="#"><img src="./images/dress2.jpg" class="dresses" alt="dresses photos"/></a>
+              <a href="#"><img src="./images/dress3.jpg" class="dresses" alt="dresses photos"/></a>
+            </div>
+
         </div>
-      </div>
-        <div class="col-md-4">
-        <form action="form" method="post" class="form-styles">
-          <h6>Short on time?</h6>
-          <p>Want a quick overview explaining what we’re all about? We’ll email you our 2016 fact sheet, complete with a snapshot of our locations, courses, job data and more.</p>
-          <br>
-        <label>
-            <input id="name" type="text" name="name" placeholder="First Name" />
-        </label>
-        <label>
-            <input id="email" type="email" name="email" placeholder="Last Name" />
-        </label>
-        <br>
-        <label>
-            <input id="message" name="message" placeholder="Email Address"></input>
-        </label>
-        <br>
-        <label>
-            <input id="message" name="message" placeholder="Phone Number"></input>
-        </label>
-        <br>
-         <label>
-            <span>&nbsp;</span>
-            <input type="button" class="button" value="Email me the fact sheet" />
-        </label>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Got part of this form code in this site: https://www.sanwebe.com/2013/10/css-html-form-styles-->
 
-<!--Our Courses-->
-<div class="container-fluid">
-  <div class="row">
-    <div class="discover">
-    <div class="col-md-12 col-grey">
-        <h2>Discover our courses</h2>
-          <br>
-          <p>We offer learning programs that cover the core components of web development. Each course is designed to help people reach their learning and career goals.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<!--Icons-->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sx-6 col-md-3 col-grey">
-        <img src="images/coursesfrontend.png" alt="front end engineering"/>
-        <br>
-        <p><font color="#cf852c">FRONT-END<br>ENGINEERING</p>
-      </div>
-      <!--BACK end icon and goodies-->
-      <div class="col-sx-6 col-md-3 col-grey">
-        <img src="images/coursesbackend.png" alt="back end engineering"/>
-        <br>
-        <p><font color="#af5c56">BACK-END<br>ENGINEERING</p>
-      </div>
-        <!--Mobile end icon and goodies-->
-      <div class="col-sx-6 col-md-3 col-grey">
-        <img src="images/mediamobile.png" alt="mobile engineering"/>
-        <br>
-        <p><font color="#d2b52b">MOBILE<br>ENGINEERING</p>
-      </div>
-      <!--UI Design end icon and goodies-->
-      <div class="col-sx-6 col-md-3 col-grey">
-        <img src="images/mobileinterface.png" alt="interface design"/>
-        <br>
-        <p><font color="#6fbbb7">INTERFACE<br>DESIGN</p>
-      </div>
-    </div>
-  </div>
-</div>
-<!--end of Our courses-->
+        <div class="welcome">
+            <div class="graduatepic">
+              <img src="./images/lauren.png" class="welcome-left" alt="lauren" />
+            </div>
 
-
-<!--Employers Section-->
-<div class="container-fluid">
-  <div class="row">
-    <div class="employers">
-      <div class="col-md-12 col-employers">
-        <h3>Employers</h3>
-          <p>We work with amazing companies around the world, connecting them with our graduates, training their developers and partnering with them to impact the communities around each of our campuses.</p>
-            <!--IBM logo-->
-            <div class="col-sx-4 col-md-4">
-                <img src="./images/employersibm.png" alt="ibm logo">
+            <div class="review">
+              <p>"This dress is amazing! I purchased it for my graduation and I felt like a princess all day!
+                <br>
+                I will buy these dresses for life, highly recommend!"</p>
             </div>
-            <!--Microsoft logo-->
-            <div class="col-sx-4 col-md-4">
-                <img src="./images/employersmicrosoft.png" alt="microsoft logo">
-            </div>
-            <!--GitHub logo-->
-            <div class="col-sx-4 col-md-4">
-                <img src="./images/employersgithub.png" alt="github">
-            </div>
-            <!--Learn about button-->
-            <label>
-               <span>&nbsp;</span>
-               <input type="button" class="button" value="Learn more about how we work with companies" />
-           </label>
         </div>
-      </div>
-    </div>
-  </div>
-<!--end of employers-->
 
-
-<!--Questions?-->
-<div class="container"><!--closing in the end-->
-  <div class-"row">
-    <div class="questions">
-      <div class="col-sx-12 col-md-4">
-        <h5>QUESTIONS?</h5>
-        <h2>Let's talk.</h2>
-        <p>Whether you're thinking about starting a new career, interested in learning more about our programs for individuals or businesses, or just want to chat, we're here and we'd love to connect with you. Shoot us an email or your phone number and we'll get back to you soon, or you can chat with us right away using the chat icon below.</p>
-      </div>
-
-  <!--call me form-->
-    <div class="col-sx-12 col-md-4">
-      <div class="form-styles">
-        <form action="" method="post" class="basic grey">
-          <h6>We'll call you</h6>
-          <p>Enter your phone number below and we'll give you a ring in the next few days.</p>
-          <br>
-            <label>
-                <input id="name" type="text" name="name" placeholder="First Name" />
-            </label>
-            <label>
-                <input id="email" type="email" name="email" placeholder="Last Name" />
-            </label>
-            <label>
-                <input id="message" name="message" placeholder="Phone Number"></input>
-            </label>
-             <label>
-                <span>&nbsp;</span>
-                <input type="button" class="button" value="Send" />
-            </label>
-         </form>
-       </div>
-     </div>
-<!--email form-->
-     <div class="col-sx-12 col-md-4">
-      <div class="form-styles">
-        <form action="" method="post" class="basic grey">
-          <h6>We'll email you</h6>
-          <p>Enter your email addresss below and we'll be in touch in the next few days.</p>
-          <br>
-          <label>
-              <input id="name" type="text" name="name" placeholder="First Name" />
-          </label>
-          <label>
-              <input id="email" type="email" name="email" placeholder="Last Name" />
-          </label>
-          <label>
-              <input id="message" name="message" placeholder="Email"></input>
-          </label>
-           <label>
-              <span>&nbsp;</span>
-              <input type="button" class="button" value="Send" />
-          </label>
-        </form>
-       </div>
-     </div>
-  </div>
- </div>
-</div><!--closing tag for div-->
-<!--end of form-->
-<br>
-<!--Footer-->
-<div class="container-fluid">
-  <div class="row">
-    <div class="footer">
-      <img src="images/theironyardlogo.svg" alt="the iron yard">
-    </div>
-  </div>
-</div>
-
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

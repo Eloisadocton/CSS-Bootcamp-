@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
 /*Hero text*/
 h1 {
   font-size: 5rem;
@@ -9,10 +14,9 @@ h1 {
 /*Discover our Courses*/
 h2 {
   font-family: sans;
-  font-size: 3rem;
-  font-weight: bold;
-  color: #727d84;
-  font-style: italic;
+  font-size: 1rem;
+  color: #ffffff;
+  text-align: center;
 }
 /*Employers header*/
 h3 {
@@ -24,12 +28,13 @@ h3 {
 }
 /*Info on Iron Yard hader*/
 h4 {
-  margin-top: 5%;
-  color: #727d84;
-  font-family: serif;
-  font-weight: bold;
+  color: #9f1d20;
   font-size: 2.5rem;
-  font-style: italic;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 200;
+  margin-top: 5%;
+  margin-bottom: 0;
 }
 /*Questions?*/
 h5 {
@@ -45,196 +50,98 @@ h6 {
   font-family: serif;
   color: #727d84;
   font-weight: bold;
-
 }
 /*General text*/
 p {
-  color: #727d84;
-  font-family: helvetica;
-  font-size: 1.7rem;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 2px 2px #cccccc;
 }
 /*General text*/
 a {
-  color: white;
-  font-family: helvetica;
-  font-size: 1.7rem;
+  color: #727d84;
+  font-size: 1.3rem;
   text-align: center;
-  margin: 15%;
+  margin-left: 1%;
+  text-decoration: none;
+  font-weight: 200;
 }
-.navbar-default {
-  height: 120px;
-  background-color: #39474e;
-  border-radius: 0;
-  border-color: #39474e;
+a:hover {
+  color: #ab1e23;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-left: 1%;
+  text-decoration: none;
+  transition: 1s;
 }
-.navbar-brand {
-  padding: 0px;
-    }
-.navbar-brand>img {
-  height: 100px;
-  display: inline !important;
+nav {
+padding: 1%;
 }
-.navbar-alignit .navbar-brand {
-	height: auto;
-}
-.navbar-nav>li>.dropdown-menu {
-	z-index: 9999;
-}
-.navbar-default .navbar-nav.navbar-right {
-  width: 30%;
-  margin-top: 1%;
+.logo {
   height: 50px;
-  padding-top: 30px;
 }
-.navbar-default .navbar-nav.navbar-left {
-  padding-top: 30px;
+ul {
   margin: 0;
 }
-.navbar-default .navbar-nav.navbar-left>li>a{
-  clear: both;
-  color: white;
-  text-align: right;
-  margin: 0;
-  margin-top: 1%;
+li {
+  margin: 1%;
 }
-.navbar-default .navbar-nav.navbar-left>li>a:hover{
-  border-bottom: 2px #6fbbb7 solid;
+.menu {
+  display: inline;
+  margin-bottom: 5%;
 }
-.navbar-default .navbar-nav.navbar-right>li>a{
-  text-align: right;
-   color: grey;
-   width: 60%;
-   display: inline !important;
- }
- .navbar-default .navbar-nav.navbar-right>li>a:hover{
-   border-bottom: 2px #7d8081 solid;
- }
- .navbar-btn {
-    color: white;
-     font-weight: bold;
-     font-style: italic;
-     font-family: serif;
-     background-color: #6fbbb7;
-     border-color: #6fbbb7;
-     position: static;
-}
-#navbar {
-  background-color: #39474e;
-}
-
 
 /*Hero area*/
 .hero {
-  background-image: url(../images/hero.jpg);
+  background-image: url(../images/vintagevogue.jpg);
   width: 100%;
   min-height: 700px;
-  background-size:     cover;
-  background-repeat:   no-repeat;
-  background-position: center center;
-  padding-top: 30%;
-  font-family: "PT Serif", serif;
-  margin-top: -2%;
-  margin-bottom: -30px;
-}
-/*Media*/
-.media {
-  background-color: #eeeeee;
-  min-height: 100%;
-  padding-left: 8%;
-  padding-right: 8%;
-  margin-top: -30px;
-}
-.companies img {
-  width: 100%;
-}
-
-/*TYI features*/
-.features {
-  margin-bottom: 15%;
-  padding-top: 7%;
-}
-.form-styles {
-  background-color: #ebebeb;
-  width: 100%;
-  margin-top: 13%;
-  padding: 15%;
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px #888888;
-}
-.button {
-  background-color: #6fbbb7;
-  border-style: none;
-  border-radius: 10px;
-  width: auto;
-  color: white;
-  padding: 2%;
-  font-size: 2rem;
-  box-shadow: 2px 2px 5px #0d716b;
-  display: inline;
-  margin-left: 5%;
-}
-input {
-  align-items: center;
-  width: 250px;
-  font-style: italic;
-  font-family: serif;
-  font-weight: normal;
-  font-size: 1.5rem;
-  align-self: center;
-}
-.col-grey {
-  background-color: #eeeeee;
-  height: 100%;
-  text-align: center;
-}
-
-/*Discover*/
-.discover {
- background: #eeeeee;
- padding-top: 3%;
-}
-.discover p {
-  padding-left: 3%;
-  padding-bottom: 3%;
-  padding-right: 3%;
-
-}
-/*Employers*/
-.employers p {
-  color: white;
-  font-size: 2rem;
-  padding: 3%;
-}
-.col-employers {
-  background-image: url(../images/employers-image.jpg);
   background-size: cover;
-  height: auto;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 5%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.welcome {
+  background-image: url(../images/herringbone.jpg);
+  background-repeat: repeat;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.welcome a {
   text-align: center;
 }
-.employerlogos {
-  display: inline;
-  padding-left: 10%;
-  padding-top: 5%;
-  padding-right: 10%;
+.welcome-left {
+  float: left;
+  margin: 2%;
 }
-
-.questions {
-  padding-top: 5%;
-  padding-bottom: 5%;
+.features {
+  padding: 1%;
 }
-
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+.dresses {
+  margin: 1%;
+}
+.review {
+  float: right;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-left: 1%;
+  width: 30%;
+}
 .footer {
   background-color: #39474e;
   padding-top: 1%;
   padding-bottom: 1%;
   width: 100%;
 
-}
-.gridbase {
-  background-color: white;
-  padding-left: 5%;
-  padding-right: 5%;
 }
